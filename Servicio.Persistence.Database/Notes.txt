@@ -1,0 +1,1 @@
+﻿dotnet ef dbcontext scaffold --use-database-names --context CompanyContext "Host=localhost;Database=bdcqrs;port=5434;Username=postgres;Password=123456" Npgsql.EntityFrameworkCore.PostgreSQL -o Models

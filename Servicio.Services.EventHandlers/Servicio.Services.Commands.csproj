@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Servicio.Services.Commands</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Servicio.Common.Mapping\Servicio.Common.Mapping.csproj" />
+    <ProjectReference Include="..\Servicio.Persistence.Database\Servicio.Persistence.Database.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Responses\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>
